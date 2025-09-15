@@ -4,11 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Personal Web</title>
+    <style>
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(85, 38, 129);
+        }
+
+        h3 {
+            color: rgb(85, 38, 129);
+        }
+        .img{
+            border-radius: 20px;
+        
+        }
+        .card1 {
+            width: 400px;
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid grey;
+            background-color: rgb(236, 193, 253);
+            justify-content: center;
+            
+        }
+
+        .card2 {
+            width: 400px;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background-color: aliceblue;
+            justify-content: center;
+        }
+
+        .card3 {
+            width: 400px;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background-color: rgb(255, 216, 255);
+        }
+        .button{
+            background-color: rgb(227, 157, 255);
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            border: none;
+        }
+        .contenedor{
+            border: 1px solid rgb(94, 94, 94);
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
 </head>
 <header>
-    <h1>Bienvenido a mi página personal</h1>
-    <img src="WhatsApp Image 2023-09-04 at 6.52.18 PM.jpeg" alt="Foto de perfil">
+    <h1>Bienvenido a mi página personal ✨✨</h1>
+    <img src="WhatsApp Image 2023-09-04 at 6.52.18 PM.jpeg" class="img" alt="Foto de perfil" height="250px" width="250px">
     <hr>
 </header>
 
@@ -16,38 +84,43 @@
     <main>
 
         <body>
-            <section>
-                <h3>Mi artistas favoritos</h3>
+            <h2>Cesar Alejandro Baez Moya - Developer</h2>
+
+            <section class="card1">
+                <h3>🎵Mi artistas favoritos</h3>
                 <ol>
                     <li>Duki</li>
                     <li>Bhavi</li>
                     <li>Davus</li>
                 </ol>
             </section>
-            <section>
-                <h3>Mis peliculas favoritas</h3>
+
+            <section class="card2">
+                <h3>🎬Mis peliculas favoritas</h3>
                 <ol>
                     <li>Pacific rim</li>
                     <li>Real steel</li>
                     <li>Men in Black</li>
                 </ol>
             </section>
-            <section>
-                <h3>Mis hobbies</h3>
+
+            <section class="card3">
+                <h3>🏀Mis hobbies</h3>
                 <ol>
                     <li>Basquetball</li>
                     <li>Dibujar</li>
                     <li>Escuchar musica</li>
                 </ol>
             </section>
+
         </body>
     </main>
     <footer>
         <hr>
-        <P>Visita mi perfil de <a href="">Github </a></P>
-        <input type="email" placeholder="email">
-        <button>Suscribete!</button>
         <p>Copyright @Ale</p>
+        <P>Visita mi perfil de <a href="">Github </a></P>
+        <input class="contenedor" type="email" placeholder="email">
+        <button class="button">Suscribete!</button>
     </footer>
 </body>
 
