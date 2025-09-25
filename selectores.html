@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS</title>
+</head>
+<style>
+    main,footer {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    header>p {
+        color: blueviolet;
+    }
+
+    div+p {
+        font-weight: bold;
+    }
+
+    div~p {
+        font-weight: bold;
+    }
+
+    div.bg-cyan {
+        background-color: cyan;
+
+    }
+
+    div#div4 {
+        background-color: hotpink;
+    }
+
+    div:hover {
+        border: 1px solid black;
+    }
+
+    button {
+        background-color: rgb(227, 157, 255);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(140, 0, 158);
+    }
+</style>
+
+<body>
+
+    <header>
+        <div>
+            <p>Parrafo nieto</p>
+        </div>
+        <p>Parrafo </p>
+        <p>Parrafo </p>
+    </header>
+
+    <main>
+        <div>Estoy en el main</div>
+        <div>Div 1</div>
+        <div class="bg-cyan">Div 2</div>
+        <div class="bg-cyan">Div 3</div>
+        <div class="bg-cyan" id="div4">Div 4</div>
+        <button class="button">Continuar</button>
+
+    </main>
+    <footer>
+        <p>Estoy en el footer</p>
+    </footer>
+</body>
+
+</html>
